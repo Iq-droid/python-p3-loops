@@ -3,8 +3,9 @@
 def happy_new_year():
     # code goes here!
     countdown = 10
-    while countdown >= 1:
-        print(countdown)
+
+    while countdown > 0:
+        print (countdown)
         countdown -= 1
     print("Happy New Year!")
     pass
